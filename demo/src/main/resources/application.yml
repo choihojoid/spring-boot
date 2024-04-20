@@ -2,6 +2,11 @@ server:
   port: 8080
 
 spring:
+  profiles:
+    active: local
+    group:
+      local: secret
+
   output:
     ansi:
       enabled: always
